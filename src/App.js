@@ -4,6 +4,7 @@ import FileView from './components/FileView/FileView';
 import Header from './components/Header/Header';
 import Title from './components/Title/Title';
 import Footer from './components/Footer/Footer';
+import FormPage from './components/FormPage/FormPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { TranslationProvider } from 'i18nano';
 import { DEFAULT_LANGUAGE, translations } from './i18n';
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/:imageId" element={<FileView />} />
                 <Route path="/uploaded/:imageId" element={<FileView owner={true}/>} />
                 <Route index element={<FileUpload />} />
+                <Route path="/form" element={<FormPage />}/>
               </Routes>
             </div>
             <Footer />

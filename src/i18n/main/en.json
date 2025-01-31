@@ -62,6 +62,13 @@
   "upload-file-button": "Upload files",
   "files-input": "Or drag and drop files here",
   "text-field-label": "description",
-  "text-field-label-span": "not necessary"
+  "text-field-label-span": "not necessary",
+
+  "feedback": "Feedback",
+  "feedback-form": "Fill out the form if you want to send a message",
+  "feedback-name": "Name",
+  "feedback-email": "Email",
+  "feedback-description": "Message",
+  "feedback-button": "Send"
 
 }

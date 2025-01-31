@@ -66,5 +66,13 @@
   "upload-file-button": "Загрузить файлы",
   "files-input": "Или перетащите сюда файлы",
   "text-field-label": "описание",
-  "text-field-label-span": "не обязательно"
+  "text-field-label-span": "не обязательно",
+
+
+  "feedback": "Обратная связь",
+  "feedback-form": "Заполните форму, если Вы хотите отправить сообщение",
+  "feedback-name": "Имя",
+  "feedback-email": "Адрес электронной почты",
+  "feedback-description": "Сообщение",
+  "feedback-button": "Отправить"
 }
