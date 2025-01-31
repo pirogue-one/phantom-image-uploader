@@ -3,10 +3,10 @@ import { Translation } from 'i18nano';
 
 export default function TextField() {
     return (
-        <div>
-            <label><Translation path="text-field-label" />(<span><Translation path="text-field-label-span" /></span>)</label>
-            <textarea
-                placeholder="Enter post your here ..."
+        <div className='text-field-container'>
+            <label className='text-field-label'><Translation path="text-field-label" />&nbsp;(&nbsp;<span className='text-field-label-span'><Translation path="text-field-label-span" /></span>&nbsp;)</label>
+            <textarea rows={3} 
+                placeholder="введите описание/Enter your description"
             />
            
         </div>

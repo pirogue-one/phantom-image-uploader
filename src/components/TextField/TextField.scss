@@ -1,0 +1,25 @@
+.text-field-label {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+}
+
+.text-field-label-span {
+    color: #888383;
+}
+
+.text-field-container {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    width: 100%
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #000;
+    border-radius: 14px;
+    padding: 10px 0 0 10px;
+    text-transform: uppercase;
+}
