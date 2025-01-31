@@ -1,0 +1,49 @@
+.lang-selector {
+  width: fit-content;
+  transform: translateY(50%);
+
+  &-current {
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+    transition: 0.3s;
+
+    > span {
+      line-height: 24px;
+    }
+
+    .icon {
+      transition: 0.3s;
+    }
+  }
+
+  &.expanded &-current {
+    color: rgba(89, 96, 160, 1);
+
+    > span {
+      border-bottom: 1px solid rgba(89, 96, 160, 1);
+    }
+
+    .icon {
+      transform: rotate(180deg);
+
+      > svg > path {
+        stroke: rgba(89, 96, 160, 1);
+      }
+    }
+  }
+
+  &-list {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &-item {
+      user-select: none;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}

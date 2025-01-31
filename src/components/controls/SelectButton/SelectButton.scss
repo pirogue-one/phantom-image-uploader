@@ -1,0 +1,76 @@
+.select-file-button-wrapper {
+    padding-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .select-file-button {
+        position: relative;
+        background-color: #2b79ab;
+        cursor: pointer;
+        border-radius: 13px 13px 0 0;
+        transition: 0.3s;
+        text-transform: uppercase;
+        color: #FFF;
+        padding: 10px 24px;
+        border: none;
+    }
+    .select-file-button:hover{
+        background-color: #1d6491;
+    }
+
+    @keyframes rotating {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .select-file-button.animate {
+        animation: rotating 1s linear infinite;
+    }
+
+    .select-file-button-circle-border-hover {
+        position: absolute;
+        width: 11rem;
+        height: 11rem;
+        left: -0.5rem;
+        top: -1.5rem;
+        background-color: rgba(89, 96, 160, 1);
+        border-radius: 100%;
+    }
+
+    .select-file-button-circle-border.hovered {
+        background-color: rgb(108, 116, 194);
+    }
+
+    .select-file-button-circle-border-hover {
+        position: absolute;
+        width: 11rem;
+        height: 11rem;
+        left: -0.5rem;
+        top: -1.5rem;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .icon {
+        position: absolute;
+        cursor: pointer;
+        font-size: 5rem;
+        color: rgba(89, 96, 160, 1);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .icon.hovered {
+        color: rgb(108, 116, 194);
+    }
+
+    .file-input {
+        display: none;
+    }
+}

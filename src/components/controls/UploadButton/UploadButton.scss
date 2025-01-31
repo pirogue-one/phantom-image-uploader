@@ -1,0 +1,23 @@
+.upload-file-button {
+  font-size: 1.25rem;
+  color: white;
+  background-color: #67c23a;
+  border: 1px solid #67c23a;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: #85ce61;
+    border-color: #85ce61;
+  }
+
+  &:active {
+    background: #5daf34;
+    border-color: #5daf34;
+  }
+
+  &-icon {
+    margin-right: 6px;
+  }
+}

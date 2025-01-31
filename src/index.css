@@ -1,0 +1,20 @@
+html,
+body,
+#root {
+  height: 100%;
+  font-size: 16px;
+}
+
+@media only screen and (max-device-width: 640px) {
+
+  html,
+  body,
+  #root {
+    font-size: 14px;
+  }
+
+  ul.navbar {
+    display: none;
+  }
+
+}

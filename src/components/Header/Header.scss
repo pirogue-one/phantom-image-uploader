@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 46px;
+  background-color: #efefef;
+  border-bottom: 2px solid #bebebe;
+  position: relative;
+}
+
+.tor-icon {
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+

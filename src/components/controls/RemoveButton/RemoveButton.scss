@@ -1,0 +1,23 @@
+.remove-file-button {
+  font-size: 0.875rem;
+  color: white;
+  background-color: #f56c6c;
+  border: 1px solid #f56c6c;
+  padding: 0.25rem 0.375rem;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: #f78989;
+    border-color: #f78989;
+  }
+
+  &:active {
+    background: #dd6161;
+    border-color: #dd6161;
+  }
+
+  &-icon {
+    margin-right: 0.25rem;
+  }
+}

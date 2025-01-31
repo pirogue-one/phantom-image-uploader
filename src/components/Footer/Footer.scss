@@ -1,0 +1,24 @@
+.footer {
+    background-color: #514C4C;
+    padding: 10px 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer-text-link {
+    color: #0277A9;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-text-down {
+    font-size: 14px;
+    color: #FFFFFF;
+}

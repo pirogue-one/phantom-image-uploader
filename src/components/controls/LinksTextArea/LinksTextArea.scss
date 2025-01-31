@@ -1,0 +1,50 @@
+.links-text-area {
+  margin-top: 1rem;
+
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-links {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      p {
+        font-weight: 500;
+        font-size: 1.125rem;
+        margin: 0;
+      }
+
+      &-type {
+        min-width: 7rem;
+      }
+    }
+
+    .copy-button {
+      font-size: 1rem;
+      padding: 0.3125rem 0.75rem;
+    }
+  }
+
+  textarea {
+    margin-top: 0.25rem;
+    min-width: 60vw;
+    min-height: 10rem;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    border: 1px solid hsl(0, 0%, 80%);
+    padding: 0.25rem;
+  }
+
+  @media only screen and (max-device-width: 640px) {
+    textarea {
+      min-width: 80vw;
+    }
+  }
+
+  textarea:focus {
+    outline: 0;
+  }
+}

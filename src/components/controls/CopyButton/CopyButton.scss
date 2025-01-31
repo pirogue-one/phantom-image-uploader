@@ -1,0 +1,23 @@
+.copy-button {
+  font-size: 0.875rem;
+  color: white;
+  background-color: rgba(89, 96, 160, 1);
+  border: 1px solid rgba(89, 96, 160, 1);
+  padding: 0.25rem 0.375rem;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(108, 116, 194);
+    border-color: rgb(108, 116, 194);
+  }
+
+  &:active {
+    background: rgb(80, 86, 144);
+    border-color: rgb(80, 86, 144);
+  }
+
+  &-icon {
+    margin-right: 0.25rem;
+  }
+}

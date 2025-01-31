@@ -1,0 +1,15 @@
+.auto-remove-select {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &-title {
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  &-control {
+    min-width: 0.75rem;
+  }
+}
